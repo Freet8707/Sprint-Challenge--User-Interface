@@ -81,15 +81,21 @@ p {
 }
 
 .container .headContain nav {
-    width: 80%;
+    width: 75%;
+    margin-left: 5%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .container .headContain {
     margin-bottom: 40px;
     display: flex;
     align-items: flex-end;
+}
+
+.topImg {
+    width: 90%;
+    margin: 0 5% 25px 0;
 }
 
 .top-content {
