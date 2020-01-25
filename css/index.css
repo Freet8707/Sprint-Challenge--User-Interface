@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+.container .headContain nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.container .headContain img {
+    width: 20%;
+}
+
+.container .headContain nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .headContain {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
