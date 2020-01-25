@@ -285,7 +285,6 @@ footer nav a {
 
 .headContainAbt {
     margin: 0 0 40px 0;
-    border: 1px solid black;
     display: flex;
     align-items: flex-end;
 }
@@ -348,4 +347,60 @@ footer nav a {
     margin-bottom: 35px;
     border-bottom: 1px dashed black;
     display: flex;
+}
+
+.imgSection2 .sect2img1 {
+    width: 48%;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgSection2 .sect2img2 {
+    width: 48%;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgSection2 {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.PlacesandCollab a {
+    padding: 10px 22px 10px 22px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.PlacesandCollab .Places {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlacesandCollab .Collab {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlacesandCollab {    
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed black;
+    display: flex;
+}
+
+.ClosingStmt {
+    line-height: 1.5;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
 }
