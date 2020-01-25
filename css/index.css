@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+.container .headContain nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.container .headContain img {
+    width: 20%;
+}
+
+.container .headContain nav {
+    width: 75%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .headContain {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.topImg {
+    width: 90%;
+    margin: 0 5% 25px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +128,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +269,138 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.headContainAbt .AbtNav a {
+    color: black;
+    text-decoration: none;
+}
+
+.headContainAbt nav {
+    width: 75%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headContainAbt {
+    margin: 0 0 40px 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.topImgAbt {
+    width: 90%;
+    margin: 0 5% 25px 0;
+}
+
+.AboutSection {
+    padding-left: 2%;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed black;
+}
+
+.imgSection .img1 {
+    width: 48%;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgSection .img2 {
+    width: 48%;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgSection {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.stratandwork a {
+    padding: 10px 22px 10px 22px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.stratandwork .strategy {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stratandwork .work {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stratandwork {    
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed black;
+    display: flex;
+}
+
+.imgSection2 .sect2img1 {
+    width: 48%;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgSection2 .sect2img2 {
+    width: 48%;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgSection2 {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.PlacesandCollab a {
+    padding: 10px 22px 10px 22px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.PlacesandCollab .Places {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlacesandCollab .Collab {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlacesandCollab {    
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed black;
+    display: flex;
+}
+
+.ClosingStmt {
+    line-height: 1.5;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
 }
