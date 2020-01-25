@@ -301,3 +301,51 @@ footer nav a {
     margin-bottom: 35px;
     border-bottom: 1px dashed black;
 }
+
+.imgSection .img1 {
+    width: 48%;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgSection .img2 {
+    width: 48%;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgSection {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.stratandwork a {
+    padding: 10px 22px 10px 22px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.stratandwork .strategy {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stratandwork .work {
+    width: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stratandwork {    
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed black;
+    display: flex;
+}
